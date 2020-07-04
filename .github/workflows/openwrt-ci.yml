@@ -106,7 +106,7 @@ jobs:
            cat >> .config <<EOF
            CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
            CONFIG_PACKAGE_ipv6helper=y
-          # EOF
+           EOF
           # 多文件系统支持:
            cat >> .config <<EOF
            CONFIG_PACKAGE_kmod-fs-nfs=y
@@ -164,7 +164,7 @@ jobs:
           CONFIG_DEFAULT_luci-app-wol=y
           CONFIG_DEFAULT_luci-app-xlnetacc=y
           CONFIG_DEFAULT_luci-app-zerotier=y
-           EOF
+          EOF
           # LuCI主题:
           # cat >> .config <<EOF
           # CONFIG_PACKAGE_luci-theme-argon=y
